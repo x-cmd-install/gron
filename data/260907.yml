@@ -5,7 +5,7 @@ about:
   head: 88a6234
   archived: false
   latestVersion: "v0.7.1"
-  collectedAt: 2026-09-07T05:00:15Z
+  collectedAt: 2026-09-07T19:22:25Z
 timeline:
   created: 2012-09-08
   lastCommit: 2025-05-31
@@ -81,7 +81,7 @@ total:
   commit: 223
 ---
 path: /home/runner/.x-repo/github.com/tomnomnom/gron
-collectedAt: 2026-09-07T05:00:16Z
+collectedAt: 2026-09-07T19:22:26Z
 loc:
   Json:
     code: 28496
@@ -223,7 +223,7 @@ checks:
       - 'Warn: 0 commits out of 23 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:00:17+00:00
+  collectedAt: 2026-09-07T19:22:26+00:00
   platform:
     darwin/arm64:
       name:  gron-darwin-arm64-0.7.1.tgz

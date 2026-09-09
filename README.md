@@ -7,7 +7,7 @@ Make JSON greppable!
 - **Latest release**: `v0.7.1` (2022-04-13)
 - **Last commit**: 2025-05-31
 - **License**: MIT
-- **Stars**: 14513 · **Forks**: 332 · **Open issues**: 90 · **Contributors**: 21
+- **Stars**: 14514 · **Forks**: 332 · **Open issues**: 90 · **Contributors**: 21
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/gron> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T05:08:57Z._
+_Last regenerated: 2026-09-09T19:21:44Z._

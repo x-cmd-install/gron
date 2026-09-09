@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.7.1"
   latestRelease: "v0.7.1"
   latestPrerelease: "v0.6.1"
-  collectedAt: 2026-09-09T05:08:51Z
+  collectedAt: 2026-09-09T19:21:33Z
 timeline:
   created: 2012-09-08
   lastCommit: 2025-05-31
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2022-04-13
   lastPrerelease: 2021-01-26
 popularity:
-  star: 14513
+  star: 14514
   watcher: 88
   fork: 332
   release: 30
@@ -85,7 +85,7 @@ total:
   commit: 223
 ---
 path: /home/runner/.x-repo/github.com/tomnomnom/gron
-collectedAt: 2026-09-09T05:08:53Z
+collectedAt: 2026-09-09T19:21:35Z
 loc:
   Json:
     code: 28496

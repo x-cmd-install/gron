@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 3927504,
       "digest": null,
-      "download_count": 15997,
+      "download_count": 16002,
       "created_at": "2022-04-13T14:09:24Z",
       "updated_at": "2022-04-13T14:09:26Z",
       "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-darwin-amd64-0.7.1.tgz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3785662,
       "digest": null,
-      "download_count": 16186,
+      "download_count": 16193,
       "created_at": "2022-04-13T14:09:26Z",
       "updated_at": "2022-04-13T14:09:28Z",
       "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-darwin-arm64-0.7.1.tgz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4052281,
       "digest": null,
-      "download_count": 143903,
+      "download_count": 144088,
       "created_at": "2022-04-13T14:09:24Z",
       "updated_at": "2022-04-13T14:09:26Z",
       "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-linux-amd64-0.7.1.tgz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 3771848,
       "digest": null,
-      "download_count": 8178,
+      "download_count": 8183,
       "created_at": "2022-04-13T14:09:26Z",
       "updated_at": "2022-04-13T14:09:28Z",
       "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-linux-arm64-0.7.1.tgz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 3954441,
       "digest": null,
-      "download_count": 13621,
+      "download_count": 13632,
       "created_at": "2022-04-13T14:09:24Z",
       "updated_at": "2022-04-13T14:09:25Z",
       "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-windows-amd64-0.7.1.zip"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 3700929,
       "digest": null,
-      "download_count": 1835,
+      "download_count": 1836,
       "created_at": "2022-04-13T14:09:26Z",
       "updated_at": "2022-04-13T14:09:28Z",
       "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-windows-arm64-0.7.1.zip"

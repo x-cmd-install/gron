@@ -1,3 +1,43 @@
+- repo: deepin_unstable
+  subrepo: main
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.6.0
+  origversion: 0.6.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - knowledgejunkie@gmail.com
+- repo: deepin_25
+  subrepo: community
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.6.1
+  origversion: 0.6.1-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: gron
@@ -68,6 +108,19 @@
     - nickm@debian.org
   categories:
     - misc
+- repo: alpine_edge
+  subrepo: community
+  srcname: gron
+  binname: gron-doc
+  visiblename: gron-doc
+  version: 0.7.1
+  origversion: 0.7.1-r7
+  status: newest
+  summary: Make JSON greppable (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
 - repo: alpine_3_23
   subrepo: community
   srcname: gron
@@ -129,19 +182,6 @@
   origversion: 0.7.1-r7
   status: newest
   summary: Make JSON greppable
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: gron
-  binname: gron-doc
-  visiblename: gron-doc
-  version: 0.7.1
-  origversion: 0.7.1-r7
-  status: newest
-  summary: Make JSON greppable (documentation)
   maintainers:
     - omni+alpine@hack.org
   licenses:
@@ -245,46 +285,6 @@
   version: 0.7.1
   origversion: 0.7.1-2
   status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.6.0
-  origversion: 0.6.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - knowledgejunkie@gmail.com
-- repo: deepin_25
-  subrepo: community
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.6.1
-  origversion: 0.6.1-1
-  status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
     - nickm@debian.org
@@ -804,20 +804,6 @@
   categories:
     - universe/misc
 - repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
   subrepo: noble-updates/universe
   srcname: gron
   binnames:
@@ -828,6 +814,20 @@
   status: newest
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - nickm@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - nickm@debian.org
   categories:
     - universe/misc

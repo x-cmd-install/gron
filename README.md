@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,517 · **Forks**: 334 · **Open issues**: 90 · **Contributors**: 21
+- **Stars**: 14,518 · **Forks**: 334 · **Open issues**: 90 · **Contributors**: 21
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-17 | 0 | 0 | 1 | 0 | 1 | 0 |
-| 360d | 2025-09-18 | 0 | 0 | 2 | 0 | 2 | 0 |
-| last720d | 2024-09-23 | 0 | 3 | 2 | 3 | 3 | 17 |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-18 | 0 | 0 | 1 | 0 | 1 | 0 |
+| 360d | 2025-09-19 | 0 | 0 | 2 | 0 | 2 | 0 |
+| last720d | 2024-09-24 | 0 | 3 | 2 | 3 | 3 | 17 |
 
 ## Release assets
 
@@ -80,24 +80,6 @@ Lowest-scoring checks:
 | [gron-windows-amd64-0.7.1.zip](https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-windows-amd64-0.7.1.zip) | 3.8 MiB | `native/win/x64` |
 | [gron-windows-arm64-0.7.1.zip](https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-windows-arm64-0.7.1.zip) | 3.5 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **71** distros on [repology.org](https://repology.org/project/gron). **58** are ✅ on the latest upstream release, **10** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.7.1` | ✅ latest |
-| Debian 14 | `0.7.1` | ✅ latest |
-| Debian 13 | `0.7.1` | ✅ latest |
-| Ubuntu 26.04 LTS | `0.7.1` | ✅ latest |
-| Ubuntu 24.04 LTS | `0.7.1` | ✅ latest |
-| Arch | `0.7.1` | ✅ latest |
-| Homebrew | `0.7.1` | ✅ latest |
-| Nix unstable | `0.7.1` | ✅ latest |
-| Void | `0.7.1` | ✅ latest |
-| Alpine edge | `0.7.1` | ✅ latest |
-| openSUSE Tumbleweed | `0.7.1` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for gron lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `gron` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -107,4 +89,4 @@ Install metadata for gron lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:18:23Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:30:14Z._

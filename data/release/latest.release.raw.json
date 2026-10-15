@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 3927504,
       "digest": null,
-      "download_count": 16306,
+      "download_count": 16320,
       "created_at": "2022-04-13T14:09:24Z",
       "updated_at": "2022-04-13T14:09:26Z",
       "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-darwin-amd64-0.7.1.tgz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3785662,
       "digest": null,
-      "download_count": 16809,
+      "download_count": 16824,
       "created_at": "2022-04-13T14:09:26Z",
       "updated_at": "2022-04-13T14:09:28Z",
       "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-darwin-arm64-0.7.1.tgz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4037207,
       "digest": null,
-      "download_count": 1477,
+      "download_count": 1483,
       "created_at": "2022-04-13T14:09:24Z",
       "updated_at": "2022-04-13T14:09:26Z",
       "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-linux-386-0.7.1.tgz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4052281,
       "digest": null,
-      "download_count": 151270,
+      "download_count": 151516,
       "created_at": "2022-04-13T14:09:24Z",
       "updated_at": "2022-04-13T14:09:26Z",
       "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-linux-amd64-0.7.1.tgz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 3771848,
       "digest": null,
-      "download_count": 8980,
+      "download_count": 8995,
       "created_at": "2022-04-13T14:09:26Z",
       "updated_at": "2022-04-13T14:09:28Z",
       "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-linux-arm64-0.7.1.tgz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 4003229,
       "digest": null,
-      "download_count": 2226,
+      "download_count": 2234,
       "created_at": "2022-04-13T14:09:26Z",
       "updated_at": "2022-04-13T14:09:27Z",
       "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-windows-386-0.7.1.zip"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 3954441,
       "digest": null,
-      "download_count": 14290,
+      "download_count": 14315,
       "created_at": "2022-04-13T14:09:24Z",
       "updated_at": "2022-04-13T14:09:25Z",
       "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-windows-amd64-0.7.1.zip"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 3700929,
       "digest": null,
-      "download_count": 1925,
+      "download_count": 1932,
       "created_at": "2022-04-13T14:09:26Z",
       "updated_at": "2022-04-13T14:09:28Z",
       "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-windows-arm64-0.7.1.zip"

@@ -1,4 +1,18 @@
-- repo: raspbian_testing
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - utils
+- repo: raspbian_stable
   subrepo: main
   srcname: gron
   binnames:
@@ -12,6 +26,108 @@
     - nickm@debian.org
   categories:
     - misc
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
+- repo: nix_stable_25_05
+  srcname: gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: null
+  status: newest
+  summary: Make JSON greppable!
+  maintainers:
+    - fgaz@fgaz.me
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: null
+  status: newest
+  summary: Make JSON greppable!
+  maintainers:
+    - fgaz@fgaz.me
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: null
+  status: newest
+  summary: Make JSON greppable!
+  maintainers:
+    - fgaz@fgaz.me
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: gron
+  binname: gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-r6
+  status: newest
+  summary: Make JSON greppable
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: gron
+  binname: gron-doc
+  visiblename: gron-doc
+  version: 0.7.1
+  origversion: 0.7.1-r6
+  status: newest
+  summary: Make JSON greppable (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: gron
+  binname: gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-r8
+  status: newest
+  summary: Make JSON greppable
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: gron
+  binname: gron-doc
+  visiblename: gron-doc
+  version: 0.7.1
+  origversion: 0.7.1-r8
+  status: newest
+  summary: Make JSON greppable (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
 - repo: alpine_edge
   subrepo: community
   srcname: gron
@@ -21,58 +137,6 @@
   origversion: 0.7.1-r7
   status: newest
   summary: Make JSON greppable
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: gron
-  binname: gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-r6
-  status: newest
-  summary: Make JSON greppable
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: gron
-  binname: gron-doc
-  visiblename: gron-doc
-  version: 0.7.1
-  origversion: 0.7.1-r6
-  status: newest
-  summary: Make JSON greppable (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: gron
-  binname: gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-r8
-  status: newest
-  summary: Make JSON greppable
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: gron
-  binname: gron-doc
-  visiblename: gron-doc
-  version: 0.7.1
-  origversion: 0.7.1-r8
-  status: newest
-  summary: Make JSON greppable (documentation)
   maintainers:
     - omni+alpine@hack.org
   licenses:
@@ -236,6 +300,20 @@
     - misc
 - repo: devuan_unstable
   subrepo: unstable/main
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
   srcname: gron
   binnames:
     - gron
@@ -412,42 +490,6 @@
   summary: Makes JSON greppable
   licenses:
     - MIT
-- repo: nix_stable_24_05
-  srcname: gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: null
-  status: newest
-  summary: Make JSON greppable!
-  maintainers:
-    - fgaz@fgaz.me
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: null
-  status: newest
-  summary: Make JSON greppable!
-  maintainers:
-    - fgaz@fgaz.me
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: null
-  status: newest
-  summary: Make JSON greppable!
-  maintainers:
-    - fgaz@fgaz.me
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - MIT
 - repo: nix_stable_25_11
   srcname: gron
   visiblename: gron
@@ -573,7 +615,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: gron
   binnames:
     - gron
@@ -587,7 +629,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: gron
   binnames:
     - gron
@@ -734,20 +776,6 @@
   categories:
     - universe/misc
 - repo: ubuntu_24_04
-  subrepo: noble-updates/universe
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-2ubuntu0.24.04.3
-  status: newest
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - nickm@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: gron
   binnames:
@@ -758,6 +786,20 @@
   status: newest
   maintainers:
     - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble-updates/universe
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-2ubuntu0.24.04.3
+  status: newest
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - nickm@debian.org
   categories:
     - universe/misc
@@ -830,45 +872,3 @@
     - orphan@voidlinux.org
   licenses:
     - MIT
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc

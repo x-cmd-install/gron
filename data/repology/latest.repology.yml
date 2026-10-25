@@ -1,5 +1,5 @@
-- repo: pureos_landing
-  subrepo: landing/main
+- repo: kali_rolling
+  subrepo: main
   srcname: gron
   binnames:
     - gron
@@ -11,7 +11,124 @@
     - team+pkg-go@tracker.debian.org
     - nickm@debian.org
   categories:
-    - utils
+    - misc
+- repo: kiss_community
+  subrepo: community
+  srcname: gron-git
+  visiblename: gron-git
+  version: git
+  origversion: null
+  status: rolling
+  maintainers:
+    - xxdlhy@gmail.com
+- repo: fedora_40
+  subrepo: release
+  srcname: gron
+  binnames:
+    - gron
+    - golang-github-tomnomnom-gron-devel
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-9.fc40
+  status: newest
+  summary: Make JSON greppable
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: gron
+  binnames:
+    - gron
+    - golang-github-tomnomnom-gron-devel
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-10.fc41
+  status: newest
+  summary: Make JSON greppable
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
+- repo: fedora_42
+  subrepo: release
+  srcname: gron
+  binnames:
+    - gron
+    - golang-github-tomnomnom-gron-devel
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-10.fc41
+  status: newest
+  summary: Make JSON greppable
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: freebsd
+  srcname: textproc/gron
+  binname: gron
+  visiblename: textproc/gron
+  version: 0.7.1
+  origversion: 0.7.1_22
+  status: newest
+  summary: Transforms JSON into discrete assignments that are easier to grep
+  maintainers:
+    - zi@freebsd.org
+  categories:
+    - textproc
+- repo: gnuguix
+  srcname: gron
+  binname: gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: null
+  status: newest
+  summary: Transform JSON to make it easier to grep
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.6.1
+  origversion: 0.6.1-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
+- repo: fedora_39
+  subrepo: release
+  srcname: gron
+  binnames:
+    - gron
+    - golang-github-tomnomnom-gron-devel
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-6.fc39
+  status: newest
+  summary: Make JSON greppable
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: raspbian_stable
   subrepo: main
   srcname: gron
@@ -26,56 +143,27 @@
     - nickm@debian.org
   categories:
     - misc
-- repo: raspbian_oldstable
+- repo: raspbian_testing
   subrepo: main
   srcname: gron
   binnames:
     - gron
   visiblename: gron
   version: 0.7.1
-  origversion: 0.7.1-1
+  origversion: 0.7.1-2
   status: newest
   maintainers:
     - team+pkg-go@tracker.debian.org
     - nickm@debian.org
   categories:
     - misc
-- repo: nix_stable_25_05
+- repo: homebrew
   srcname: gron
   visiblename: gron
   version: 0.7.1
   origversion: null
   status: newest
-  summary: Make JSON greppable!
-  maintainers:
-    - fgaz@fgaz.me
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: null
-  status: newest
-  summary: Make JSON greppable!
-  maintainers:
-    - fgaz@fgaz.me
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: null
-  status: newest
-  summary: Make JSON greppable!
-  maintainers:
-    - fgaz@fgaz.me
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - MIT
+  summary: Make JSON greppable
 - repo: alpine_3_23
   subrepo: community
   srcname: gron
@@ -284,135 +372,6 @@
     - nickm@debian.org
   categories:
     - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.6.1
-  origversion: 0.6.1-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
-- repo: fedora_39
-  subrepo: release
-  srcname: gron
-  binnames:
-    - gron
-    - golang-github-tomnomnom-gron-devel
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-6.fc39
-  status: newest
-  summary: Make JSON greppable
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_40
-  subrepo: release
-  srcname: gron
-  binnames:
-    - gron
-    - golang-github-tomnomnom-gron-devel
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-9.fc40
-  status: newest
-  summary: Make JSON greppable
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_41
-  subrepo: release
-  srcname: gron
-  binnames:
-    - gron
-    - golang-github-tomnomnom-gron-devel
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-10.fc41
-  status: newest
-  summary: Make JSON greppable
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
-  subrepo: release
-  srcname: gron
-  binnames:
-    - gron
-    - golang-github-tomnomnom-gron-devel
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-10.fc41
-  status: newest
-  summary: Make JSON greppable
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: freebsd
-  srcname: textproc/gron
-  binname: gron
-  visiblename: textproc/gron
-  version: 0.7.1
-  origversion: 0.7.1_22
-  status: newest
-  summary: Transforms JSON into discrete assignments that are easier to grep
-  maintainers:
-    - zi@freebsd.org
-  categories:
-    - textproc
-- repo: gnuguix
-  srcname: gron
-  binname: gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: null
-  status: newest
-  summary: Transform JSON to make it easier to grep
-- repo: homebrew
-  srcname: gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: null
-  status: newest
-  summary: Make JSON greppable
 - repo: homebrew
   srcname: gron
   visiblename: gron
@@ -420,29 +379,6 @@
   origversion: null
   status: rolling
   summary: Make JSON greppable
-- repo: kali_rolling
-  subrepo: main
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
-- repo: kiss_community
-  subrepo: community
-  srcname: gron-git
-  visiblename: gron-git
-  version: git
-  origversion: null
-  status: rolling
-  maintainers:
-    - xxdlhy@gmail.com
 - repo: macports
   srcname: textproc/gron
   binname: gron
@@ -488,6 +424,42 @@
   origversion: 0.7.1-3
   status: newest
   summary: Makes JSON greppable
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: null
+  status: newest
+  summary: Make JSON greppable!
+  maintainers:
+    - fgaz@fgaz.me
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: null
+  status: newest
+  summary: Make JSON greppable!
+  maintainers:
+    - fgaz@fgaz.me
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: null
+  status: newest
+  summary: Make JSON greppable!
+  maintainers:
+    - fgaz@fgaz.me
+    - sandro.jaeckel@gmail.com
   licenses:
     - MIT
 - repo: nix_stable_25_11
@@ -706,6 +678,34 @@
     - nickm@debian.org
   categories:
     - utils
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
 - repo: scoop
   subrepo: main
   binname: gron
@@ -776,20 +776,6 @@
   categories:
     - universe/misc
 - repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
   subrepo: noble-updates/universe
   srcname: gron
   binnames:
@@ -800,6 +786,20 @@
   status: newest
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - nickm@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - nickm@debian.org
   categories:
     - universe/misc

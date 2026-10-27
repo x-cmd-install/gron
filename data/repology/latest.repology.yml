@@ -1,3 +1,24 @@
+- repo: kali_rolling
+  subrepo: main
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
+- repo: homebrew
+  srcname: gron
+  visiblename: gron
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Make JSON greppable
 - repo: kiss_community
   subrepo: community
   srcname: gron-git
@@ -7,8 +28,8 @@
   status: rolling
   maintainers:
     - xxdlhy@gmail.com
-- repo: kali_rolling
-  subrepo: main
+- repo: parrot
+  subrepo: parrot/main
   srcname: gron
   binnames:
     - gron
@@ -35,8 +56,8 @@
     - nickm@debian.org
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
   srcname: gron
   binnames:
     - gron
@@ -48,49 +69,7 @@
     - team+pkg-go@tracker.debian.org
     - nickm@debian.org
   categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
-- repo: chocolatey
-  binname: gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: null
-  status: newest
-  summary: Make JSON greppable!
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.6.1
-  origversion: 0.6.1-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - utils
-- repo: homebrew
-  srcname: gron
-  visiblename: gron
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Make JSON greppable
+    - universe/misc
 - repo: alpine_3_23
   subrepo: community
   srcname: gron
@@ -196,6 +175,13 @@
   summary: Makes JSON greppable
   licenses:
     - MIT
+- repo: chocolatey
+  binname: gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: null
+  status: newest
+  summary: Make JSON greppable!
 - repo: debian_11
   subrepo: bullseye/main
   srcname: gron
@@ -301,6 +287,20 @@
   version: 0.6.1
   origversion: 0.6.1-1
   status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-2
+  status: newest
   maintainers:
     - team+pkg-go@tracker.debian.org
     - nickm@debian.org
@@ -650,6 +650,20 @@
     - knowledgejunkie@gmail.com
   categories:
     - utils
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.6.1
+  origversion: 0.6.1-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - utils
 - repo: pureos_landing
   subrepo: landing/main
   srcname: gron
@@ -791,20 +805,6 @@
     - universe/misc
 - repo: ubuntu_24_04
   subrepo: noble/universe
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
   srcname: gron
   binnames:
     - gron

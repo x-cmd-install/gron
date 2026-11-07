@@ -47,7 +47,7 @@ x install gron
 
 ## 流行度
 
-- **Star**: 14,537 · **Fork**: 348 · **开放 issue**: 91 · **贡献者**: 21
+- **Star**: 14,536 · **Fork**: 348 · **开放 issue**: 91 · **贡献者**: 21
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install gron
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 6 | 0 | 1 | 0 |
-| last60d | 2026-09-07 | 0 | 0 | 6 | 0 | 1 | 0 |
-| 90d | 2026-08-08 | 0 | 0 | 6 | 0 | 1 | 0 |
-| last180d | 2026-05-10 | 0 | 0 | 6 | 0 | 1 | 0 |
-| 360d | 2025-11-11 | 0 | 0 | 8 | 0 | 3 | 0 |
-| last720d | 2024-11-16 | 0 | 1 | 8 | 1 | 4 | 15 |
+| 30d | 2026-10-08 | 0 | 0 | 5 | 0 | 1 | 0 |
+| last60d | 2026-09-08 | 0 | 0 | 6 | 0 | 1 | 0 |
+| 90d | 2026-08-09 | 0 | 0 | 6 | 0 | 1 | 0 |
+| last180d | 2026-05-11 | 0 | 0 | 6 | 0 | 1 | 0 |
+| 360d | 2025-11-12 | 0 | 0 | 8 | 0 | 3 | 0 |
+| last720d | 2024-11-17 | 0 | 1 | 8 | 1 | 4 | 15 |
 
 ## Release 资产
 
@@ -80,6 +80,24 @@ x install gron
 | [gron-windows-amd64-0.7.1.zip](https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-windows-amd64-0.7.1.zip) | 3.8 MiB | `native/win/x64` |
 | [gron-windows-arm64-0.7.1.zip](https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-windows-arm64-0.7.1.zip) | 3.5 MiB | `native/win/arm64` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/gron) 上共有 **69** 个发行版报告此项目。**59** 个 ✅ 已是最新上游版本，**8** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.7.1` | ✅ latest |
+| Debian 14 | `0.7.1` | ✅ latest |
+| Debian 13 | `0.7.1` | ✅ latest |
+| Ubuntu 26.04 LTS | `0.7.1` | ✅ latest |
+| Ubuntu 24.04 LTS | `0.7.1` | ✅ latest |
+| Arch | `0.7.1` | ✅ latest |
+| Homebrew | `0.7.1` | ✅ latest |
+| Nix unstable | `0.7.1` | ✅ latest |
+| Void | `0.7.1` | ✅ latest |
+| Alpine edge | `0.7.1` | ✅ latest |
+| openSUSE Tumbleweed | `0.7.1` | ✅ latest |
+
 ## 改进这些数据
 
 gron 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `gron` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -89,4 +107,4 @@ gron 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261106.yml` · 2026-11-06T07:01:03Z._
+_数据快照: `data/card/261107.yml` · 2026-11-07T06:21:16Z._

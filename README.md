@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 5 | 0 | 1 | 0 |
-| last60d | 2026-09-17 | 0 | 0 | 6 | 0 | 1 | 0 |
-| 90d | 2026-08-18 | 0 | 0 | 6 | 0 | 1 | 0 |
-| last180d | 2026-05-20 | 0 | 0 | 6 | 0 | 1 | 0 |
-| 360d | 2025-11-21 | 0 | 0 | 8 | 0 | 3 | 0 |
-| last720d | 2024-11-26 | 0 | 1 | 8 | 1 | 4 | 15 |
+| 30d | 2026-10-18 | 0 | 0 | 5 | 0 | 1 | 0 |
+| last60d | 2026-09-18 | 0 | 0 | 6 | 0 | 1 | 0 |
+| 90d | 2026-08-19 | 0 | 0 | 6 | 0 | 1 | 0 |
+| last180d | 2026-05-21 | 0 | 0 | 6 | 0 | 1 | 0 |
+| 360d | 2025-11-22 | 0 | 0 | 8 | 0 | 3 | 0 |
+| last720d | 2024-11-27 | 0 | 1 | 8 | 1 | 4 | 15 |
 
 ## Release assets
 
@@ -92,7 +92,7 @@ Reported by **69** distros on [repology.org](https://repology.org/project/gron).
 | Ubuntu 26.04 LTS | `0.7.1` | ✅ latest |
 | Ubuntu 24.04 LTS | `0.7.1` | ✅ latest |
 | Arch | `0.7.1` | ✅ latest |
-| Homebrew | `0.7.1` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Nix unstable | `0.7.1` | ✅ latest |
 | Void | `0.7.1` | ✅ latest |
 | Alpine edge | `0.7.1` | ✅ latest |
@@ -107,4 +107,4 @@ Install metadata for gron lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T07:17:10Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T09:37:42Z._

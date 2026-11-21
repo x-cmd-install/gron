@@ -1,29 +1,3 @@
-- repo: deepin_unstable
-  subrepo: main
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.6.0
-  origversion: 0.6.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - knowledgejunkie@gmail.com
-- repo: deepin_25
-  subrepo: community
-  srcname: gron
-  binnames:
-    - gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: 0.7.1-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
 - repo: devuan_4_0
   subrepo: chimaera/main
   srcname: gron
@@ -38,8 +12,8 @@
     - nickm@debian.org
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: deepin_25
+  subrepo: community
   srcname: gron
   binnames:
     - gron
@@ -66,6 +40,20 @@
     - nickm@debian.org
   categories:
     - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: gron
+  binnames:
+    - gron
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
 - repo: raspbian_stable
   subrepo: main
   srcname: gron
@@ -80,6 +68,21 @@
     - nickm@debian.org
   categories:
     - misc
+- repo: fedora_39
+  subrepo: release
+  srcname: gron
+  binnames:
+    - gron
+    - golang-github-tomnomnom-gron-devel
+  visiblename: gron
+  version: 0.7.1
+  origversion: 0.7.1-6.fc39
+  status: newest
+  summary: Make JSON greppable
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: raspbian_testing
   subrepo: main
   srcname: gron
@@ -94,20 +97,15 @@
     - nickm@debian.org
   categories:
     - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: gron
-  binnames:
-    - gron
+- repo: scoop
+  subrepo: main
+  binname: gron
   visiblename: gron
   version: 0.7.1
-  origversion: 0.7.1-2
+  origversion: null
   status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
+  licenses:
+    - MIT
 - repo: alpine_3_23
   subrepo: community
   srcname: gron
@@ -276,21 +274,20 @@
     - nickm@debian.org
   categories:
     - misc
-- repo: fedora_39
-  subrepo: release
+- repo: debian_unstable
+  subrepo: sid/main
   srcname: gron
   binnames:
     - gron
-    - golang-github-tomnomnom-gron-devel
   visiblename: gron
   version: 0.7.1
-  origversion: 0.7.1-6.fc39
+  origversion: 0.7.1-2
   status: newest
-  summary: Make JSON greppable
-  licenses:
-    - MIT
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
   categories:
-    - Unspecified
+    - misc
 - repo: fedora_40
   subrepo: release
   srcname: gron
@@ -695,15 +692,6 @@
     - nickm@debian.org
   categories:
     - utils
-- repo: scoop
-  subrepo: main
-  binname: gron
-  visiblename: gron
-  version: 0.7.1
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: stalix
   srcname: bin/gron
   binname: bin/gron
